@@ -1,201 +1,218 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- insert jQuery here -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Flashcards</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <h1>JavaScript Flashcards</h1>
-    <div class="card">
-      <div class="term">
-        <h3>JavaScript (JS)</h3>
+    <div class="container">
+      <h1>JavaScript Flashcards</h1>
+      <div class="row">
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>JavaScript (JS)</h3>
+          </div>
+          <div class="definition">
+            <p>
+              The only programming language understood by all modern web-browsers! Used in front-end development to create interactivity in web sites.
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Operators</h3>
+          </div>
+          <div class="definition">
+            <p>
+              An operator is a special character (or characters) that indicates an action to be performed, such as +, -, *, /, and %.
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Variables</h3>
+          </div>
+          <div class="definition">
+            <p>
+              Variables can be thought of as containers used to store information. They allow for a way to label data with a descriptive name.<br>
+              Always use the var keyword when initializing variables in JavaScript.
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Variable naming conventions</h3>
+          </div>
+          <div class="definition">
+            <p>
+              Use lowerCamelCase when naming JavaScript variables. Start with a lowercase letter, and if the variable name is more than one word, remove all spaces and capitalize the first letter of each subsequent word.
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Functions</h3>
+          </div>
+          <div class="definition">
+            <p>
+              A function is a block of code that performs an action and returns a result; optionally takes arguments
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Methods</h3>
+          </div>
+          <div class="definition">
+            <p>
+              A method is an action run on a piece of data; you can think of it as a message you send to a piece of data, and the result is the response.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="definition">
-        <p>
-          The only programming language understood by all modern web-browsers! Used in front-end development to create interactivity in web sites.
-        </p>
+      <div class="row">
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Arguments</h3>
+          </div>
+          <div class="definition">
+            <p>
+              An argument is what you pass into a function or method.<br>
+              Some methods take one or more arguments that provide the method with additional information to help it perform its action.
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Parameters</h3>
+          </div>
+          <div class="definition">
+            <p>
+              A parameter is a variable that's assigned to the argument. Above, number1 and number2 are parameters, and 1 and 2 are arguments.
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Return</h3>
+          </div>
+          <div class="definition">
+            <p>
+              Once called, many functions will provide a result of some kind. This is known as returning, and the result is often referred to as a return value.
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Chaining methods</h3>
+          </div>
+          <div class="definition">
+            <p>
+              Chaining metthods is when you call a method directly on the return value of another method.
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Strings</h3>
+          </div>
+          <div class="definition">
+            <p>
+              'String' is a JavaScript data type that represents the exact text of whatever is enclosed in the quotes
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Booleans</h3>
+          </div>
+          <div class="definition">
+            <p>
+              true and false are booleans. They are not strings - they simply represent being true or false.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Operators</h3>
+      <div class="row">
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Undefined</h3>
+          </div>
+          <div class="definition">
+            <p>
+              a primitive data type in JavaScript indicating no value has been assigned.
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>NaN</h3>
+          </div>
+          <div class="definition">
+            <p>
+              NaN stands for "Not a Number" and it is considered a special number in JavaScript
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Escape</h3>
+          </div>
+          <div class="definition">
+            <p>
+              An escape character allows us to use special characters inside of a string. "\" is the escape character in JavaScript
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Alert</h3>
+          </div>
+          <div class="definition">
+            <p>
+              Alert is a built-in methos of JavaScript that pops up a message box with a message that can only be read and dismissed.
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Comments</h3>
+          </div>
+          <div class="definition">
+            <p>
+              Anything following // on a line in JavaScript is ignored by the computer. Comments are a convenient way to leave notes in your code for yourself or other programmers.
+            </p>
+          </div>
+        </div>
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>jQuery</h3>
+          </div>
+          <div class="definition">
+            <p>
+              jQuery is a JavaScript library that contains functions for many common tasks and can save many lines of code when we use it.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="definition">
-        <p>
-          An operator is a special character (or characters) that indicates an action to be performed, such as +, -, *, /, and %.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Variables</h3>
-      </div>
-      <div class="definition">
-        <p>
-          Variables can be thought of as containers used to store information. They allow for a way to label data with a descriptive name.<br>
-          Always use the var keyword when initializing variables in JavaScript.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Variable naming conventions</h3>
-      </div>
-      <div class="definition">
-        <p>
-          Use lowerCamelCase when naming JavaScript variables. Start with a lowercase letter, and if the variable name is more than one word, remove all spaces and capitalize the first letter of each subsequent word.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Functions</h3>
-      </div>
-      <div class="definition">
-        <p>
-          A function is a block of code that performs an action and returns a result; optionally takes arguments
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Methods</h3>
-      </div>
-      <div class="definition">
-        <p>
-          A method is an action run on a piece of data; you can think of it as a message you send to a piece of data, and the result is the response.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Arguments</h3>
-      </div>
-      <div class="definition">
-        <p>
-          An argument is what you pass into a function or method.<br>
-          Some methods take one or more arguments that provide the method with additional information to help it perform its action.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Parameters</h3>
-      </div>
-      <div class="definition">
-        <p>
-          A parameter is a variable that's assigned to the argument. Above, number1 and number2 are parameters, and 1 and 2 are arguments.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Return</h3>
-      </div>
-      <div class="definition">
-        <p>
-          Once called, many functions will provide a result of some kind. This is known as returning, and the result is often referred to as a return value.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Chaining methods</h3>
-      </div>
-      <div class="definition">
-        <p>
-          Chaining metthods is when you call a method directly on the return value of another method.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Strings</h3>
-      </div>
-      <div class="definition">
-        <p>
-          'String' is a JavaScript data type that represents the exact text of whatever is enclosed in the quotes
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Booleans</h3>
-      </div>
-      <div class="definition">
-        <p>
-          true and false are booleans. They are not strings - they simply represent being true or false.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Undefined</h3>
-      </div>
-      <div class="definition">
-        <p>
-          a primitive data type in JavaScript indicating no value has been assigned.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>NaN</h3>
-      </div>
-      <div class="definition">
-        <p>
-          NaN stands for "Not a Number" and it is considered a special number in JavaScript
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Escape</h3>
-      </div>
-      <div class="definition">
-        <p>
-          An escape character allows us to use special characters inside of a string. "\" is the escape character in JavaScript
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Alert</h3>
-      </div>
-      <div class="definition">
-        <p>
-          Alert is a built-in methos of JavaScript that pops up a message box with a message that can only be read and dismissed.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Comments</h3>
-      </div>
-      <div class="definition">
-        <p>
-          Anything following // on a line in JavaScript is ignored by the computer. Comments are a convenient way to leave notes in your code for yourself or other programmers.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>jQuery</h3>
-      </div>
-      <div class="definition">
-        <p>
-          jQuery is a JavaScript library that contains functions for many common tasks and can save many lines of code when we use it.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="term">
-        <h3>Attributes</h3>
-      </div>
-      <div class="definition">
-        <p>
-          Attributes are additional information about HTML elemetns (such as name or id). JavaScript can access attributes from HTML elements through the DOM.
-        </p>
+      <div class="row">
+        <div class="card col-sm-2">
+          <div class="term">
+            <h3>Attributes</h3>
+          </div>
+          <div class="definition">
+            <p>
+              Attributes are additional information about HTML elemetns (such as name or id). JavaScript can access attributes from HTML elements through the DOM.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
