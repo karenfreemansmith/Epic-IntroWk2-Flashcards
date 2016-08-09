@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $(".term, .definition").click(function() {
-    //add code here...
+    $(this).toggle();
+    $(this).siblings().toggle();
   });
 });
